@@ -11,7 +11,7 @@ docker run -d --name cassandra-web \
   -e CASSANDRA_PASSOWRD=cassandra \
   -e CASSANDRA_WEB_PORT=8080 \  
   -p 8080:8080 \  
-  delermando/docker-cassandra-web:v0.4.0
+  jmaciel33/docker-cassandra-web:latest
  ```
 
 ## Environment Variables
