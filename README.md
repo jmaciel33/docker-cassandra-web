@@ -5,13 +5,13 @@ Docker image for [Cassandra web](https://github.com/avalanche123/cassandra-web)
 
 ```docker
 docker run -d --name cassandra-web \  
-  -e CASSANDRA_HOST_IP=127.0.0.1 \   
-  -e CASSANDRA_PORT=9042 \  
-  -e CASSANDRA_USERNAME=cassandra \  
-  -e CASSANDRA_PASSOWRD=cassandra \
-  -e CASSANDRA_WEB_PORT=8080 \  
-  -p 8080:8080 \  
-  jmaciel33/docker-cassandra-web:latest
+-e CASSANDRA_HOST_IP=127.0.0.1 \   
+-e CASSANDRA_PORT=9042 \  
+-e CASSANDRA_USERNAME=cassandra \  
+-e CASSANDRA_PASSOWRD=cassandra \
+-e CASSANDRA_WEB_PORT=8080 \  
+-p 8080:8080 \  
+jmaciel33/docker-cassandra-web:latest
  ```
 
 ## Environment Variables
